@@ -88,5 +88,26 @@ blockquote cite
 
 blockquote cite::before
 {
-	content: "\2013";
+	content: "\2013 ";
+}
+
+table
+{
+	border-width: 2px;
+	border-style: solid;
+	border-color: #06c;
+	border-collapse: collapse;
+}
+
+th, td
+{
+	border-width: 1px;
+	border-style: solid;
+	border-color: #06c;
+}
+
+th
+{
+	text-align: left;
+	background-color: #cef;
 }
