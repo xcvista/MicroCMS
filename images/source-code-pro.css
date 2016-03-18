@@ -1,0 +1,21 @@
+@font-face
+{ 
+    font-family: 'Source Code Pro Web';
+    font-weight: normal;
+    src: url('sourcecodepro-light-webfont.eot');
+    src: url('sourcecodepro-light-webfont.eot?#iefix') format('embedded-opentype'),
+         url('sourcecodepro-light-webfont.woff') format('woff'),
+         url('sourcecodepro-light-webfont.ttf') format('truetype'),
+         url('sourcecodepro-light-webfont.svg#webfont') format('svg');
+}
+
+@font-face
+{ 
+    font-family: 'Source Code Pro Web';
+    font-weight: bold;
+    src: url('sourcecodepro-medium-webfont.eot');
+    src: url('sourcecodepro-medium-webfont.eot?#iefix') format('embedded-opentype'),
+         url('sourcecodepro-medium-webfont.woff') format('woff'),
+         url('sourcecodepro-medium-webfont.ttf') format('truetype'),
+         url('sourcecodepro-medium-webfont.svg#webfont') format('svg');
+}

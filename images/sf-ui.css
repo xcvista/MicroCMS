@@ -1,0 +1,47 @@
+@font-face
+{ 
+    font-family: 'SF UI Web';
+    font-style: normal;
+    font-weight: normal;
+    src: url('sf-ui-text-light-webfont.eot');
+    src: url('sf-ui-text-light-webfont.eot?#iefix') format('embedded-opentype'),
+         url('sf-ui-text-light-webfont.woff') format('woff'),
+         url('sf-ui-text-light-webfont.ttf') format('truetype'),
+         url('sf-ui-text-light-webfont.svg#webfont') format('svg');
+}
+
+@font-face
+{ 
+    font-family: 'SF UI Web';
+    font-style: italic;
+    font-weight: normal;
+    src: url('sf-ui-text-lightitalic-webfont.eot');
+    src: url('sf-ui-text-lightitalic-webfont.eot?#iefix') format('embedded-opentype'),
+         url('sf-ui-text-lightitalic-webfont.woff') format('woff'),
+         url('sf-ui-text-lightitalic-webfont.ttf') format('truetype'),
+         url('sf-ui-text-lightitalic-webfont.svg#webfont') format('svg');
+}
+
+@font-face
+{ 
+    font-family: 'SF UI Web';
+    font-style: normal;
+    font-weight: bold;
+    src: url('sf-ui-text-medium-webfont.eot');
+    src: url('sf-ui-text-medium-webfont.eot?#iefix') format('embedded-opentype'),
+         url('sf-ui-text-medium-webfont.woff') format('woff'),
+         url('sf-ui-text-medium-webfont.ttf') format('truetype'),
+         url('sf-ui-text-medium-webfont.svg#webfont') format('svg');
+}
+
+@font-face
+{ 
+    font-family: 'SF UI Web';
+    font-style: italic;
+    font-weight: bold;
+    src: url('sf-ui-text-mediumitalic-webfont.eot');
+    src: url('sf-ui-text-mediumitalic-webfont.eot?#iefix') format('embedded-opentype'),
+         url('sf-ui-text-mediumitalic-webfont.woff') format('woff'),
+         url('sf-ui-text-mediumitalic-webfont.ttf') format('truetype'),
+         url('sf-ui-text-mediumitalic-webfont.svg#webfont') format('svg');
+}
