@@ -38,7 +38,7 @@ div.header-title
     margin-left: 16px;
 }
 
-@media screen and (min-width: 480px)
+@media screen and (min-width: 800px)
 {
 	div.header-menu
 	{
@@ -103,7 +103,7 @@ div.header-title
 	}
 }
 
-@media screen and (max-width: 479px)
+@media screen and (max-width: 799px)
 {
 	div.header-menu
 	{

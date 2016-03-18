@@ -28,7 +28,7 @@ a:hover, a:active
 
 h1, h2, h3, h4, h5, h6
 {
-    color: #39f;
+    color: #06c;
 }
 
 pre, code, kbd, samp
@@ -55,4 +55,37 @@ code
     border-radius: 4px;
     padding-left: 4px;
     padding-right: 4px;
+}
+
+hr
+{
+	border: none;
+	height: 1px;
+	background-color: #06c;
+}
+
+blockquote
+{
+	margin-top: 1em;
+	margin-bottom: 1em;
+	margin-left: 16px;
+	margin-right: 16px;
+	padding: 8px;
+	
+	border-left-style: solid;
+	border-left-width: 4px;
+	border-left-color: #06c;
+	background-color: #cef;
+}
+
+blockquote cite
+{
+	display: block;
+	padding-right: 2em;
+	text-align:right;
+}
+
+blockquote cite::before
+{
+	content: "\2013";
 }
