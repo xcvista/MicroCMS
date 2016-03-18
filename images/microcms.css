@@ -93,12 +93,13 @@ blockquote cite::before
 
 table
 {
-	border-width: 2px;
+	border-width: 1px;
 	border-style: solid;
 	border-color: #06c;
 	border-collapse: collapse;
 	
 	display: block;
+	width: auto;
 	max-width: 100%;
 	overflow: scroll;
 }
