@@ -94,15 +94,17 @@ blockquote cite::before
 
 table
 {
-	border-width: 1px;
-	border-style: solid;
-	border-color: #06c;
 	border-collapse: collapse;
 	
 	display: block;
-	width: 100%;
-	max-width: 600px;
 	overflow: scroll;
+}
+
+tbody
+{
+	border-width: 1px;
+	border-style: solid;
+	border-color: #06c;
 }
 
 th, td
