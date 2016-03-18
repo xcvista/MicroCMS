@@ -49,7 +49,7 @@ nav.header-menu a
 	div.header-menu
 	{
 		position: absolute;
-		top: 0;
+		top: 60px;
 		right: 0;
 		bottom: 0;
 		vertical-align: middle;
