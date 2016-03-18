@@ -1,103 +1,58 @@
+*
+{
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
 body
 {
     font-family: "SF UI Web", Helvetica, Verdana, sans-serif;
     font-size: 14px;
     color: black;
     background-color: white;
+    margin: 0;
 }
 
-div.header
+a:link, a:visited
 {
-    color: white;
-    background-color: #333;
-    
-    position: fixed;
-    top: 0;
-    left: 0;
-    right: 0;
-    height: 60px;
-    vertical-align: middle;
+    color: #06c;
+    text-decoration: none;
 }
 
-div.header:before
+a:hover, a:active
 {
-    content: '\200B';
-    display: inline-block;
-    height: 100%;
-    vertical-align: middle;
+    color: #39f;
+    text-decoration: underline;
 }
 
-h1.header-title
+h1, h2, h3, h4, h5, h6
 {
-    font-size: 24px;
-    font-weight: bold;
+    color: #39f;
 }
 
-div.header-title
+pre, code, kbd, samp
 {
-    display: inline-block;
-    vertical-align: middle;
-    margin-left: 16px;
+    font-family: "Source Code Pro Web", Monaco, "Lucida Console", Courier, "Courier New", Fixedsys, monospace;
 }
 
-div.header-menu
+pre, code
 {
-    position: absolute;
-    top: 0;
-    right: 0;
-    bottom: 0;
-    vertical-align: middle;
-    margin-right: 16px;
+    background-color: #ccc;
+    border-style: solid;
+    border-width: 1px;
+    border-color: #666;
 }
 
-div.header-menu:before
+pre
 {
-    content: '\200B';
-    display: inline-block;
-    height: 100%;
-    vertical-align: middle;
-}
-
-div.header-menu-text
-{
-    display: inline-block;
-    font-size: 24px;
-    font-weight: normal; 
-    vertical-align: middle;
-    
-    right: 0;
-}
-
-div.menu
-{
-    color: black;
-    background-color: white;
-
-    position: fixed;
-    top: 60px;
-    left: 0;
-    bottom: 0;
-    width: 184px;
-    overflow: scroll;
-
-    border-right-style: solid;
-    border-right-width: 1px;
-    border-right-color: #666;
-
+    border-radius: 8px;
     padding: 8px;
 }
 
-div.main
+code
 {
-    color: black;
-    background-color: white;
-
-    position: fixed;
-    top: 60px;
-    left: 200px;
-    right: 0;
-    bottom: 0;
-    overflow: scroll;
-
-    padding: 8px;
+    border-radius: 4px;
+    padding-left: 4px;
+    padding-right: 4px;
 }
