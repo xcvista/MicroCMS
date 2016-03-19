@@ -12,11 +12,6 @@ header.header-title
     vertical-align: middle;
 }
 
-body
-{
-	padding-top: 60px;
-}
-
 header.header-title:before
 {
     content: '\200B';
@@ -46,6 +41,13 @@ nav.header-menu a
 
 @media screen and (min-width: 800px)
 {
+
+	body
+	{
+		padding-top: 60px;
+		padding-left: 200px;
+	}
+
 	div.header-menu
 	{
 		position: absolute;
@@ -97,20 +99,19 @@ nav.header-menu a
 	{
 		color: black;
 		background-color: white;
-
-		position: fixed;
-		top: 60px;
-		left: 200px;
-		right: 0;
-		bottom: 0;
-		overflow: scroll;
-
+		
 		padding: 8px;
 	}
 }
 
 @media screen and (max-width: 799px)
 {
+
+	body
+	{
+		padding-top: 60px;
+	}
+	
 	div.header-menu
 	{
 		display: none;
