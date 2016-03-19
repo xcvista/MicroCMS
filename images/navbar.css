@@ -108,7 +108,7 @@ nav.header-menu a
 		left: 0;
 		bottom: 0;
 		width: 320px;
-		overflow: scroll;
+		overflow: auto;
 
 		border-right-style: solid;
 		border-right-width: 1px;

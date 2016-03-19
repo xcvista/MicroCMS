@@ -42,7 +42,7 @@ pre
 {
     border-radius: 8px;
     padding: 8px;
-    overflow: scroll;
+    overflow: auto;
 }
 
 code
@@ -90,7 +90,7 @@ table
 	border-collapse: collapse;
 	
 	display: block;
-	overflow: scroll;
+	overflow: auto;
 }
 
 tbody
